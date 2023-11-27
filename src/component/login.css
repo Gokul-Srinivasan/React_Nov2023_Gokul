@@ -1,0 +1,91 @@
+.log{
+    background-color: black;
+    background-size: cover;
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: grid;
+    place-content: center;
+}
+
+.dom
+{
+    background-image: url("https://burst.shopifycdn.com/photos/beach-at-sunset-in-teal-and-orange.jpg?width=1000&format=pjpg&exif=0&iptc=0");
+    display: grid;
+    place-items: center;
+    /* height:500% !important; */
+    border:solid;
+    font-size: x-large;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    color: blue;
+
+    
+}
+.box1
+{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    
+    color: bla;
+    /* text-align: center; */
+}
+.box2{
+    cursor: pointer;
+}
+input{
+    background-color: rgb(6, 136, 249);
+    width: 400px;
+    height: 75px;
+    color: black;
+    font-size: large;
+    border-radius: 20px;
+    border: 0cap;
+    
+    
+}
+label{
+    
+    color: white;
+    
+}
+button{
+    margin-left: 30px;
+    width: 40%;
+    height: 5%;
+    font-size: large;
+    border-radius: 10px;
+}
+
+span
+{
+    color: black;
+}
+.textfield
+{
+    color: black !important;
+    width: 400px !important;
+}
+h4{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height:15px;
+    
+
+}
+h4:before,
+h4:after{
+    content:"";
+    flex:1 1;
+    border-bottom: 2px solid gray;
+    margin: auto;
+
+}
+/* .reg{
+    cursor: pointer;
+} */
